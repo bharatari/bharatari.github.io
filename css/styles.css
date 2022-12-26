@@ -53,12 +53,17 @@ body {
 
 .location-text {
   white-space: nowrap;
+  margin-left: -10px;
 }
 
 .social-links {
   display: flex;
   flex-direction: row;
   margin-top: -20px;
+}
+
+.social-links:first-child {
+  padding-left: 0px;
 }
 
 .icon-link {
