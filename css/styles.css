@@ -39,15 +39,12 @@ body {
   color: white;
   font-weight: 600;
   font-size: 42px;
-  display: flex;
-  align-items: center;
 }
 
 .description {
   font-family: var(--primary-font);
   color: rgb(149, 161, 188);
   font-weight: 400;
-  margin-top: 20px;
 }
 
 .highlight {
@@ -56,8 +53,6 @@ body {
 
 .location-text {
   white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
 }
 
 .social-links {
