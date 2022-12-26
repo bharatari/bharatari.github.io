@@ -1,6 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
 
-html, body {
+html,
+body {
   font-family: 'Inter', sans-serif;
   height: 100%;
   width: 100%;
@@ -12,7 +13,9 @@ html, body {
 }
 
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
 .background {
@@ -36,6 +39,8 @@ html, body {
   color: white;
   font-weight: 600;
   font-size: 42px;
+  display: flex;
+  align-items: center;
 }
 
 .description {
@@ -49,19 +54,18 @@ html, body {
   color: rgb(235, 110, 110);
 }
 
-.pin-icon {
-  margin-right: 15px;
-  margin-left: 8px;
+.location-text {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
 }
 
 .social-links {
-  list-style-type: none;
-  padding-left: 0px;
+  display: flex;
   margin-top: -20px;
 }
 
 .icon-link {
-  float: left;
   padding: 20px;
 }
 
@@ -70,14 +74,15 @@ html, body {
   display: block;
   color: white;
   font-size: 30px;
-  -webkit-transition: color 0.5s ease-out; 
+  -webkit-transition: color 0.5s ease-out;
   -moz-transition: color 0.5s ease-out;
   -ms-transition: color 0.5s ease-out;
   -o-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
 }
 
-.icon-link a:focus, .icon-link a:hover {
+.icon-link a:focus,
+.icon-link a:hover {
   color: rgb(228, 228, 228);
 }
 
